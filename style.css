@@ -22,6 +22,16 @@
   font-weight: 400;
 
 }
+:root {
+	--text-color: #E4E4E4;
+	--font-family: Arodora Pro;
+	--fonts-family: NEXT ART;
+}
+html{
+	margin-top: -37px;
+	margin-left: -10px;
+	overflow-x: hidden;
+}
 header {
 	position: absolute;
 	height: 785px;
@@ -29,66 +39,71 @@ header {
 	background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
 }
 .button-first {
+	position: absolute;
 	margin-left: 375px;
 	margin-top: 27px;
-	font-family: NEXT ART;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
+	font-family: var(--fonts-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
 	text-transform: uppercase;
+	border: 0;
 	background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
-	border: solid 1px black;
 	padding: 10px;
 	width: 200px;
   height: 47px;
   border-radius: 6px;
   box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
   cursor: pointer;
-  transition: transform 600ms ease;
+  transition: transform 500ms ease;
 }
 .button-first:hover{
-	transform:translateY(-5px);
+	transform: translateY(-10px);
+	transition: 1s;
+}
+.button-first a{
+	color: black;
 }
 h2 {
-	margin-left: 375px;
+margin-left: 375px;
 margin-top: 200px;
 width: 205px;
 height: 39px;
-font-family: NEXT ART;
+font-family: var(--fonts-family);
 font-style: normal;
 font-weight: 600;
 font-size: 48px;
 line-height: 54px;
 display: flex;
-color: #E4E4E4;
+color: var(--text-color);
 }
 .my-name {
-	margin-left: 375px;
-	margin-top: 27px;
+margin-left: 375px;
+margin-top: 27px;
 width: 447px;
 height: 136px;
-font-family: NEXT ART;
+font-family: var(--fonts-family);
 font-style: normal;
 font-weight: bold;
 font-size: 72px;
 line-height: 82px;
 display: flex;
 align-items: center;
-color: #E4E4E4;
+color: var(--text-color);
 }
 .text {
-	margin-left: 375px;
+  margin-left: 375px;
 	margin-top: 27px;
 	width: 430px;
-    height: 74px;
-    font-family: Arodora Pro;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-color: #E4E4E4;
+  height: 74px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
 }
 
 ul {
@@ -108,8 +123,8 @@ a {
 	font-style: normal;
 	font-weight: 300;
 	line-height: 21px;
-	color: #E4E4E4;
-	font-family: Arodora Pro;
+	color: var(--text-color);
+	font-family: var(--font-family);
 	font-size: 18px;
 	text-decoration: none;
 	border-bottom-width: 2px;
@@ -261,11 +276,11 @@ main {
   margin-top: 191px;
   margin-left: 60px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .uxdes img{
 	position: absolute;
@@ -279,11 +294,11 @@ main {
   margin-top: 191px;
   margin-left: 66px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .icon-design img{
 	position: absolute;
@@ -297,11 +312,11 @@ main {
   margin-top: 191px;
   margin-left: 66px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .logo-design img{
 	position: absolute;
@@ -315,11 +330,11 @@ main {
   margin-top: 191px;
   margin-left: 66px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .backend img{
 	position: absolute;
@@ -333,11 +348,11 @@ main {
   margin-top: 191px;
   margin-left: 87px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .frontend img{
 	position: absolute;
@@ -351,11 +366,11 @@ main {
   margin-top: 191px;
   margin-left: 83px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .motion img{
 	position: absolute;
@@ -369,11 +384,11 @@ main {
   margin-top: 191px;
   margin-left: 97px;
 
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #E4E4E4
+  color: var(--text-color);
 }
 .circles {
 	position: absolute;
@@ -417,21 +432,21 @@ main {
 	padding: 29px ;
 }
 h3{
-	position: absolute;
+position: absolute;
 width: 246px;
 height: 54px;
 margin-left: 865px;
 margin-top: 839px;
 
-font-family: NEXT ART;
+font-family: var(--fonts-family);
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
 line-height: 54px;
-color: #E4E4E4;
+color: var(--text-color);
 }
 .texxt {
-	position: absolute;
+position: absolute;
 width: 496px;
 height: 822px;
 margin-left: 802px;
@@ -444,7 +459,7 @@ border-radius: 14px;
 position: absolute;
 width: 370px;
 height: 696px;
-font-family: Arodora Pro;
+font-family: var(--font-family);
 font-style: normal;
 font-weight: 300;
 font-size: 20px;
@@ -461,13 +476,13 @@ footer {
 	margin-top: 2632px;
 }
 .portfolio {
-	position: absolute;
+position: absolute;
 width: 268px;
 height: 54px;
 margin-left: 826px;
 margin-top: 104px;
 
-font-family: NEXT ART;
+font-family: var(--fonts-family);
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
@@ -476,7 +491,7 @@ color: #FFFFFF;
 
 }
 .background{
-	position: absolute;
+position: absolute;
 width: 970px;
 height: 600px;
 margin-left: 475px;
@@ -486,7 +501,7 @@ box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
 border-radius: 29px;
 }
 .background img{
-	position: absolute;
+position: absolute;
 width: 525px;
 height: 500px;
 margin-top: 50px;
@@ -500,7 +515,7 @@ border-radius: 29px;
   margin-top: 82px;
   margin-left: 666px;
   font-style: normal;
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
@@ -513,7 +528,7 @@ border-radius: 29px;
   margin-top: 136px;
   margin-left: 625px;
   font-style: normal;
-  font-family: Arodora Pro;
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 18px;
   line-height: 21px;
@@ -521,7 +536,7 @@ border-radius: 29px;
   text-align: center;
 }
 .elipse4{
-	position: absolute;
+position: absolute;
 width: 60px;
 height: 60px;
 margin-left: 392px;
@@ -537,7 +552,7 @@ text-align: center;
 	padding-top: 19.5px;
 }
 .elipse5{
-	position: absolute;
+position: absolute;
 width: 60px;
 height: 60px;
 margin-left: 1470px;
@@ -551,20 +566,20 @@ text-align: center;
 }
 .fother{
 	position: absolute;
-    width: 1920px;
-    height: 238px;
-    margin-top: 954px ;
-    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+  width: 1920px;
+  height: 238px;
+  margin-top: 954px ;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
 }
 .fother p{
-	font-family: Arodora Pro;
+font-family: var(--font-family);
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 21px;
 display: flex;
 align-items: center;
-color: #E4E4E4;
+color: var(--text-color);
 flex: none;
 order: 3;
 flex-grow: 0;
@@ -600,21 +615,21 @@ margin-top: 71px;
 	margin-top: 60px;
 }
 .fother .copy{
-	position: absolute;
+position: absolute;
 width: 226px;
 height: 21px;
 margin-left: 1097px ;
 margin-top: 167px;
-font-family: Arodora Pro;
+font-family: var(--font-family);
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 21px;
-color: #E4E4E4;
+color: var(--text-color);
 
 }
 .fother .elipse6{
-	position: absolute;
+position: absolute;
 width: 60px;
 height: 60px;
 margin-top: 50px;
@@ -624,5 +639,5 @@ border-radius: 100%;
 text-align: center;
 }
 .elipse6 img{
-	padding: 13px;
+padding: 13px;
 }
